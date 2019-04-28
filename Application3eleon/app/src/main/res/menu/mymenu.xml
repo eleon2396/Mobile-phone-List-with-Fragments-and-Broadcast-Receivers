@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/icon"
+
+        android:title="AllMight"
+        android:orderInCategory="100"
+        android:icon="@drawable/allmight"
+        android:layout_alignParentRight="true"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/startA1A2"
+        android:enabled="true"
+        android:title="Launch A1 and A2"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/exit"
+        android:enabled="true"
+        android:title="Exit"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

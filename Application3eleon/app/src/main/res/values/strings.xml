@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Application3eleon</string>
+    <string-array name="phoneNames">
+        <item>Iphone 8 plus</item>
+        <item>Iphone Xs max</item>
+        <item>Iphone Xr</item>
+        <item>Samsung Galaxy S10</item>
+        <item>Samsung Galaxy S9</item>
+        <item>Samsung Note 9</item>
+    </string-array>
+
+    <string-array name="phoneWebsites">
+        <item>https://www.apple.com/iphone-8/specs/</item>
+        <item>https://www.apple.com/iphone-xs/specs/</item>
+        <item>https://www.apple.com/iphone-xr/specs/</item>
+        <item>https://www.samsung.com/us/mobile/galaxy-s10/</item>
+        <item>https://www.samsung.com/us/smartphones/galaxy-s9/</item>
+        <item>https://www.samsung.com/us/mobile/galaxy-note9/</item>
+    </string-array>
+</resources>
